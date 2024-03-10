@@ -1,0 +1,69 @@
+/* Non finished runners. */
+.runner-container {
+	width: 765px;
+	height: 84px;
+}
+
+.runner-top-row {
+	width: 765px;
+}
+
+.runner-bottom-row {
+	width: 765px;
+}
+
+#runner-container1 {
+	left: 770px;
+	top: 865px;
+}
+
+.runner-top-row > .runner-name {
+	padding-right: 410px;
+}
+
+/* Finished runners */
+#finished-runner-container1 {
+	left: 24px;
+    top: 531px;
+}
+
+#finished-runner-container2 {
+	left: 24px;
+    top: 598px;
+}
+
+/* Commentators. */
+.comms-name {
+	width: 343px;
+}
+
+.comms-pronouns {
+	width: 179px;
+}
+
+#comms-container1 {
+	left: 20px;
+	top: 845px;
+}
+
+#comms-container2 {
+	left: 20px;
+	top: 911px;
+}
+
+#comms-container3 {
+	left: 20px;
+	top: 975px;
+}
+
+/* Timer. */
+#timer {
+    left: 118px;
+    top: 270px;
+}
+
+/* Round. */
+#round {
+    left: 102px;
+    top: 389px;
+}

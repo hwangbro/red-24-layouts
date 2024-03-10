@@ -1,0 +1,38 @@
+/* Commentators */
+.runner-container {
+	position: absolute;
+	display: flex;
+	font-size: 24pt;
+	width: 520px;
+	height: 55px;
+}
+
+.runner-container > .runner-name {
+	float: left;
+	vertical-align: middle;
+	width: 325px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.runner-container > .pronouns {
+	width: 176px;
+	margin-top: 8px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+#runner-container1 {
+	left: 104px;
+	top: 945px;
+}
+
+#runner-container2 {
+	left:718px;
+	top: 945px;
+}
+
+#runner-container3 {
+	left: 1332px;
+	top: 945px;
+}

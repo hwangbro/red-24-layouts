@@ -1,0 +1,68 @@
+/* Runners. */
+.runner-container {
+	width: 370px;
+	height: 84px;
+}
+
+.runner-top-row {
+	width: 370px;
+}
+
+.runner-bottom-row {
+	width: 370px;
+}
+
+#runner-container1 {
+	left: 20px;
+	top: 545px;
+}
+
+#runner-container2 {
+	left: 652px;
+	top: 545px;
+}
+
+#runner-container3 {
+	left: 1284px;
+	top: 545px;
+}
+
+.runner-top-row > .runner-name {
+	padding-right: 20px;
+}
+
+/* Commentators. */
+.comms-name {
+	width: 530px;
+}
+
+.comms-pronouns {
+	width: 190px;
+}
+
+#comms-container1 {
+	left: 20px;
+	top: 845px;
+}
+
+#comms-container2 {
+	left: 20px;
+	top: 911px;
+}
+
+#comms-container3 {
+	left: 20px;
+	top: 975px;
+}
+
+/* Timer. */
+#timer {
+    left: 1238px;
+    top: 834px;
+}
+
+/* Round. */
+#round {
+    left: 1221px;
+    top: 953px;
+}

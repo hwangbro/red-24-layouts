@@ -1,0 +1,52 @@
+/* Commentators */
+.comms-container {
+	position: absolute;
+	width: 550px;
+	height: 84px;
+}
+
+.comms-top-row {
+	position: absolute;
+	top: 0;
+	height: 42px;
+}
+
+.comms-bottom-row {
+	position: absolute;
+	bottom: 0;
+	height: 42px;
+}
+
+.comms-top-row > .comms-name {
+	display: inline-block;
+	width: 200px;
+	height: 35px;
+	margin-left: 20px;
+	font-size: 20pt;
+	text-align: left;
+}
+
+.comms-bottom-row > .comms-pronouns {
+	text-align: left;
+	display: inline-block;
+	width: 108px;
+	margin-left: 20px;
+	margin-top: 5px;
+	vertical-align: top;
+	font-size: 20pt;
+}
+
+#comms-container1 {
+	left: 85px;
+	top: 660px;
+}
+
+#comms-container2 {
+	left:687px;
+	top: 660px;
+}
+
+#comms-container3 {
+	left: 1288px;
+	top: 660px;
+}
