@@ -32,6 +32,10 @@
 }
 
 /* Commentators. */
+.comms-container {
+	width: 720px;
+}
+
 .comms-name {
 	width: 530px;
 }
