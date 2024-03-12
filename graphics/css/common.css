@@ -76,7 +76,7 @@ video {
 .runner-bottom-row > .pronouns {
 	text-align: left;
 	display: inline-block;
-	width: 108px;
+	max-width: 108px;
 	margin-left: 10px;
 	margin-top: 5px;
 	vertical-align: top;
@@ -87,6 +87,10 @@ video {
 	display: inline-block;
 	min-width: 	28px;
 	max-height: 35px;
+}
+
+.runner-bottom-row > .runner-game {
+	margin-left: 10px;
 }
 
 /* Finished runners */

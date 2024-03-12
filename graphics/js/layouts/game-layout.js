@@ -29,9 +29,12 @@ $(() => {
 
 					// Update pronouns.
 					let pronouns = player.pronouns;
-					if (pronouns === undefined)
-						pronouns = '';
-					fadeText('#pronouns' + (i + 1), pronouns, true);
+					if (pronouns === undefined) {
+						$('#pronouns' + (i + 1)).hide();
+					} else {
+						$('#pronouns' + (i + 1)).show();
+						fadeText('#pronouns' + (i + 1), pronouns, true);
+					}
 
 					// Update game.
 					$('#game-img' + (i + 1)).attr('src', 'img/logos/' + player.customData.runnerGame + '.png');
