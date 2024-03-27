@@ -30,13 +30,13 @@ function refreshNextRacesData(currentRace) {
 		getNamesForRun(race).forEach((runner, index) => fadeHtml(onDeckRunners + "-runner" + (index + 1), runner, true));
 
 		if (race.customData.raceTime == undefined) {
-			fadeHtml(onDeckStart, 'TBC', true);
+			fadeHtml(onDeckStart, 'TBD', true);
 		} else {
 			fadeHtml(onDeckStart, race.customData.raceTime + ' ET', true);
 		}
 
 		if (race.customData.channel == undefined) {
-			fadeHtml(onDeckChannel, 'TBC', true);
+			fadeHtml(onDeckChannel, 'TBD', true);
 		} else {
 			fadeHtml(onDeckChannel, race.customData.channel, true);
 		}
