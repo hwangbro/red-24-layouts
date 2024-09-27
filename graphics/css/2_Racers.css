@@ -1,9 +1,4 @@
 /* Non finished runners. */
-.runner-container {
-	width: 658px;
-	height: 84px;
-}
-
 .runner-top-row {
 	width: 658px;
 }
@@ -13,57 +8,25 @@
 }
 
 #runner-container1 {
-	left: 31px;
-	top: 647px;
+	left: 231px;
 }
 
 #runner-container2 {
-	left: 992px;
-	top: 647px;
+	left: 1080px;
 }
 
-.runner-top-row > .runner-name {
+.runner-top-row>.runner-name {
 	padding-right: 310px;
 }
 
 /* Finished runners */
 #finished-runner-container1 {
-	left: 615px;
-    top: 911px;
-}
-
-/* Commentators. */
-.comms-name {
-	width: 343px;
-}
-
-.comms-pronouns {
-	width: 179px;
-}
-
-#comms-container1 {
-	left: 20px;
-	top: 845px;
-}
-
-#comms-container2 {
-	left: 20px;
-	top: 911px;
-}
-
-#comms-container3 {
-	left: 20px;
-	top: 975px;
-}
-
-/* Timer. */
-#timer {
-    left: 1220px;
-    top: 834px;
+	left: 1300px;
+	top: 730px;
 }
 
 /* Round. */
 #round {
-    left: 1203px;
-    top: 953px;
+	left: 1203px;
+	top: 953px;
 }
