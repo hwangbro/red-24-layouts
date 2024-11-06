@@ -1,0 +1,80 @@
+/* Runners. */
+.runner-top-row {
+    width: 1500px;
+}
+
+.runner-bottom-row {
+    width: 1370px;
+}
+
+#runner-container1 {
+    left: 470px;
+    top: 455px;
+}
+
+#runner-container2 {
+    left: 980px;
+    top: 455px;
+}
+
+#runner-container3 {
+    left: 470px;
+    top: 530px;
+}
+
+#runner-container4 {
+    left: 980px;
+    top: 530px;
+}
+
+/* Non finished runners. */
+.runner-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 460px;
+    height: 70px;
+    padding: 10px;
+    top: 592px;
+}
+
+/* Round. */
+#round {
+    left: 1221px;
+    top: 953px;
+}
+
+/* Timer. */
+#timer {
+    position: absolute;
+    width: 610px;
+    height: 91px;
+    text-align: center;
+    font-size: 55pt;
+    left: 1380px;
+    top: 185px;
+}
+
+#comms-container1 {
+    left: 1505px;
+    top: 730px;
+    width: 380px;
+}
+
+#comms-container2 {
+    left: 1505px;
+    top: 810px;
+    width: 380px;
+}
+
+#comms-container3 {
+    left: 1505px;
+    top: 890px;
+    width: 380px;
+}
+
+.comms-pronouns {
+    width: 80px;
+    text-align: right;
+    font-size: 20pt;
+}
